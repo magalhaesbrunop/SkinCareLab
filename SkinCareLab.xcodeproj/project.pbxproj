@@ -13,6 +13,7 @@
 		24ADF80121EF678B003E80AA /* SkinCareLab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24ADF7FF21EF678B003E80AA /* SkinCareLab.xcdatamodeld */; };
 		24ADF80321EF6795003E80AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24ADF80221EF6795003E80AA /* Assets.xcassets */; };
 		24ADF80621EF6795003E80AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24ADF80421EF6795003E80AA /* LaunchScreen.storyboard */; };
+		24C883C621F62B0E00CD0338 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C883C521F62B0E00CD0338 /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		24ADF80221EF6795003E80AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24ADF80521EF6795003E80AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24ADF80721EF6795003E80AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24C883C521F62B0E00CD0338 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				24ADF80421EF6795003E80AA /* LaunchScreen.storyboard */,
 				24ADF80721EF6795003E80AA /* Info.plist */,
 				24ADF7FF21EF678B003E80AA /* SkinCareLab.xcdatamodeld */,
+				24C883C521F62B0E00CD0338 /* NewsTableViewController.swift */,
 			);
 			path = SkinCareLab;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24C883C621F62B0E00CD0338 /* NewsTableViewController.swift in Sources */,
 				24ADF80121EF678B003E80AA /* SkinCareLab.xcdatamodeld in Sources */,
 				24ADF7FB21EF678A003E80AA /* ViewController.swift in Sources */,
 				24ADF7F921EF678A003E80AA /* AppDelegate.swift in Sources */,
@@ -289,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUUS7SP38Z;
 				INFOPLIST_FILE = SkinCareLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GUUS7SP38Z;
 				INFOPLIST_FILE = SkinCareLab/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -9,12 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var analizeButton: UIButton!
+    @IBOutlet weak var backgroundImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        backgroundImage.layer.cornerRadius = 20
+        analizeButton.layer.cornerRadius = 10
+        analizeButton.layer.borderWidth = 3
+        analizeButton.layer.borderColor = UIColor.black.cgColor
+        
     }
 
-
+    @IBAction func analizeButton(_ sender: Any) {
+        
+        
+    }
+    
 }
 
