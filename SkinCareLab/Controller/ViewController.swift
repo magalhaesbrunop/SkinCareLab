@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
     @IBOutlet weak var analizeButton: UIButton!
     @IBOutlet weak var backgroundImage: UIImageView!
     

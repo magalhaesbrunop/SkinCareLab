@@ -14,6 +14,7 @@
 		24ADF80321EF6795003E80AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24ADF80221EF6795003E80AA /* Assets.xcassets */; };
 		24ADF80621EF6795003E80AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24ADF80421EF6795003E80AA /* LaunchScreen.storyboard */; };
 		24C883C621F62B0E00CD0338 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C883C521F62B0E00CD0338 /* NewsTableViewController.swift */; };
+		61FF57D563B1BB557C8B20FA /* Pods_SkinCareLab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73BF14A3DC390C0E2D9C2324 /* Pods_SkinCareLab.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		24ADF80521EF6795003E80AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24ADF80721EF6795003E80AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24C883C521F62B0E00CD0338 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		73BF14A3DC390C0E2D9C2324 /* Pods_SkinCareLab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkinCareLab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7BF60437F88FBAC50AA7BAF /* Pods-SkinCareLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinCareLab.debug.xcconfig"; path = "Target Support Files/Pods-SkinCareLab/Pods-SkinCareLab.debug.xcconfig"; sourceTree = "<group>"; };
+		DC1A709CF7A4C90BA7A8288D /* Pods-SkinCareLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkinCareLab.release.xcconfig"; path = "Target Support Files/Pods-SkinCareLab/Pods-SkinCareLab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FF57D563B1BB557C8B20FA /* Pods_SkinCareLab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2454FD9F21F8B4C400FF6AE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				24ADF7FC21EF678A003E80AA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2454FDA021F8B4F100FF6AE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				24ADF7F821EF678A003E80AA /* AppDelegate.swift */,
+				24ADF7FA21EF678A003E80AA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2454FDA121F8B52400FF6AE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		24ADF7EC21EF678A003E80AA = {
 			isa = PBXGroup;
 			children = (
 				24ADF7F721EF678A003E80AA /* SkinCareLab */,
 				24ADF7F621EF678A003E80AA /* Products */,
+				783B8774E3F28FA253A52A2B /* Pods */,
+				DC78B26628A225A18F21CD57 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +89,9 @@
 		24ADF7F721EF678A003E80AA /* SkinCareLab */ = {
 			isa = PBXGroup;
 			children = (
-				24ADF7F821EF678A003E80AA /* AppDelegate.swift */,
-				24ADF7FA21EF678A003E80AA /* ViewController.swift */,
-				24ADF7FC21EF678A003E80AA /* Main.storyboard */,
+				2454FDA121F8B52400FF6AE2 /* Model */,
+				2454FD9F21F8B4C400FF6AE2 /* View */,
+				2454FDA021F8B4F100FF6AE2 /* Controller */,
 				24ADF80221EF6795003E80AA /* Assets.xcassets */,
 				24ADF80421EF6795003E80AA /* LaunchScreen.storyboard */,
 				24ADF80721EF6795003E80AA /* Info.plist */,
@@ -70,6 +101,24 @@
 			path = SkinCareLab;
 			sourceTree = "<group>";
 		};
+		783B8774E3F28FA253A52A2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7BF60437F88FBAC50AA7BAF /* Pods-SkinCareLab.debug.xcconfig */,
+				DC1A709CF7A4C90BA7A8288D /* Pods-SkinCareLab.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DC78B26628A225A18F21CD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73BF14A3DC390C0E2D9C2324 /* Pods_SkinCareLab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24ADF80A21EF6795003E80AA /* Build configuration list for PBXNativeTarget "SkinCareLab" */;
 			buildPhases = (
+				971E18210368401D51451C38 /* [CP] Check Pods Manifest.lock */,
 				24ADF7F121EF678A003E80AA /* Sources */,
 				24ADF7F221EF678A003E80AA /* Frameworks */,
 				24ADF7F321EF678A003E80AA /* Resources */,
+				5F7992895F95878BEBE40E44 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +186,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F7992895F95878BEBE40E44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SkinCareLab/Pods-SkinCareLab-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SkinCareLab/Pods-SkinCareLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971E18210368401D51451C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkinCareLab-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24ADF7F121EF678A003E80AA /* Sources */ = {
@@ -288,6 +390,7 @@
 		};
 		24ADF80B21EF6795003E80AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7BF60437F88FBAC50AA7BAF /* Pods-SkinCareLab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,6 +410,7 @@
 		};
 		24ADF80C21EF6795003E80AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC1A709CF7A4C90BA7A8288D /* Pods-SkinCareLab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
