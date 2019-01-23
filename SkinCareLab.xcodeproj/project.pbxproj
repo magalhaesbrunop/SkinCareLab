@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2454FDA321F8E10F00FF6AE2 /* WeatherDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2454FDA221F8E10F00FF6AE2 /* WeatherDataModel.swift */; };
 		24ADF7F921EF678A003E80AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADF7F821EF678A003E80AA /* AppDelegate.swift */; };
 		24ADF7FB21EF678A003E80AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADF7FA21EF678A003E80AA /* ViewController.swift */; };
 		24ADF7FE21EF678A003E80AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24ADF7FC21EF678A003E80AA /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2454FDA221F8E10F00FF6AE2 /* WeatherDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDataModel.swift; sourceTree = "<group>"; };
 		24ADF7F521EF678A003E80AA /* SkinCareLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkinCareLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24ADF7F821EF678A003E80AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24ADF7FA21EF678A003E80AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 		2454FDA121F8B52400FF6AE2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2454FDA221F8E10F00FF6AE2 /* WeatherDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,7 +110,6 @@
 				A7BF60437F88FBAC50AA7BAF /* Pods-SkinCareLab.debug.xcconfig */,
 				DC1A709CF7A4C90BA7A8288D /* Pods-SkinCareLab.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -244,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C883C621F62B0E00CD0338 /* NewsTableViewController.swift in Sources */,
+				2454FDA321F8E10F00FF6AE2 /* WeatherDataModel.swift in Sources */,
 				24ADF80121EF678B003E80AA /* SkinCareLab.xcdatamodeld in Sources */,
 				24ADF7FB21EF678A003E80AA /* ViewController.swift in Sources */,
 				24ADF7F921EF678A003E80AA /* AppDelegate.swift in Sources */,

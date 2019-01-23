@@ -68,7 +68,7 @@
                                     <constraint firstAttribute="width" constant="150" id="hgc-4k-YqA"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guarapari, ES - Brazil" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yof-Me-AAs">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yof-Me-AAs">
                                 <rect key="frame" x="20" y="145" width="374" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="fMa-Dc-mF1"/>
@@ -128,6 +128,10 @@
                     <connections>
                         <outlet property="analizeButton" destination="Ifc-Kr-ToX" id="axG-ZZ-TAd"/>
                         <outlet property="backgroundImage" destination="LtV-yb-ct0" id="WDW-24-6BG"/>
+                        <outlet property="cityLabel" destination="yof-Me-AAs" id="H2Y-Om-Ugg"/>
+                        <outlet property="screenMessageLabel" destination="sbX-BZ-T4o" id="lb0-K9-kpx"/>
+                        <outlet property="temperatureLabel" destination="Pox-9G-cDP" id="gqQ-B9-ksK"/>
+                        <outlet property="weatherIcon" destination="BLj-KO-TsQ" id="NSk-sy-Mn8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
